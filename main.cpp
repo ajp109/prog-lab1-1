@@ -10,6 +10,6 @@ int main()
     
     printf("x:%d y:%d\n", x, y);
     
-    // Do nothing, forever...
-    while (true);
+    // Do nothing, forever, when the program is complete
+    while (true) sleep();
 }
