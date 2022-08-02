@@ -2,10 +2,14 @@
 
 int main()
 {
-    int var = 100;
+    int x = 4;
+    x = 6;
+    int y;
+    y = 2*x;
+    x = 7;
     
-    printf("var: %d\n", var);
-
+    printf("x:%d y:%d\n", x, y);
+    
     // Do nothing, forever...
     while (true);
 }
